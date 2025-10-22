@@ -96,3 +96,85 @@ ol {
 ol li {
     margin-bottom: 6px;
 }
+
+/* ==== T21 - Estilo do Card de Vitrine (Block & Inline) ==== */
+
+.card-vitrine {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 340px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-vitrine:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+  
+  .card-vitrine img {
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background-color: #f3f3f3;
+    color: #333;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 0.9rem;
+    margin: 3px;
+  }
+  
+  .card-vitrine a {
+    text-decoration: none;
+    color: #cc0000;
+    font-weight: 600;
+  }
+  
+  .card-vitrine a:hover {
+    color: #ff1a1a;
+    text-decoration: underline;
+  }
+
+ /* ==== T22 - Estrutura principal do site (Divs) ==== */
+
+/* Topo do site */
+.topo-site {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Conteúdo principal */
+  .conteudo-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fafafa;
+  }
+  
+  /* Rodapé */
+  .rodape-site {
+    background-color: #111;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .rodape-site a {
+    color: #ff3b3b;
+    text-decoration: none;
+  }
+  
+  .rodape-site a:hover {
+    text-decoration: underline;
+  }
+  
